@@ -1,0 +1,13 @@
+plugin:
+  enabled:    "§aBetterDurability plugin byl zapnut!"
+  disabled:   "§cBetterDurability plugin byl vypnut!"
+  reload:     "§aBetterDurability: konfigurace a zprávy přenačteny!"
+
+command:
+  no-console: "§cTento příkaz může použít pouze hráč."
+  no-tool:    "§cMusíš držet nástroj se stavitelnou durabilitou."
+  display:    "§eDurability: §a%current%§7/§a%max%"
+
+listener:
+  low-actionbar: "§cNízká durabilita: %current%/%max%"
+  low-chat:      "§cPozor! Durability: %current%/%max%"

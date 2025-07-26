@@ -1,0 +1,24 @@
+name: BetterDurability
+version: 1.0
+main: vyloterra.betterdurability.BetterDurability
+api-version: 1.21
+author: Michal
+
+depend:
+  - PlaceholderAPI
+
+commands:
+  durability:
+    description: Zobrazí stav durability drženého itemu.
+    usage: /<command>
+  bd:
+    description: Správa pluginu (reload).
+    usage: /bd reload
+
+permissions:
+  betterdurability.command:
+    description: Umožňuje použít /durability
+    default: true
+  betterdurability.reload:
+    description: Umožňuje reloadovat config a messages
+    default: op

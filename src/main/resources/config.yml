@@ -1,0 +1,8 @@
+durability:
+  green-above: 70
+  yellow-above: 30
+
+notifications:
+  actionbar: true
+  chat: false
+  warn-below: 10
